@@ -16,7 +16,7 @@
     "@ory/hydra-client": "^2.2.0",
     "@ory/integrations": "^1.1.5",
     "@tailwindcss/forms": "^0.5.7",
-    "next": "14.1.0",
+    "next": "14.1.1",
     "react": "^18",
     "react-dom": "^18",
     "ua-parser-js": "^1.0.37"
