@@ -1,0 +1,37 @@
+{
+  "name": "codr-client-sso",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "build:docker": "docker build . -t codr-client-sso --build-arg NEXT_PUBLIC_IDP_URL=http://idp.codr.local"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.18",
+    "@heroicons/react": "^2.1.1",
+    "@ory/client": "^1.6.2",
+    "@ory/hydra-client": "^2.2.0",
+    "@ory/integrations": "^1.1.5",
+    "@tailwindcss/forms": "^0.5.7",
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "ua-parser-js": "^1.0.37"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/ua-parser-js": "^0.7.39",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  }
+}
