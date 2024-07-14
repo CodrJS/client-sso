@@ -1,0 +1,16 @@
+name: "CodeQL"
+
+on:
+  push:
+    branches:
+      - "main"
+  pull_request:
+    branches:
+      - "main"
+    paths-ignore:
+      - "**/*.md"
+      - "**/*.txt"
+
+jobs:
+  analyze:
+    uses: CodrJS/cicd/.github/workflows/codeql.yml@main
